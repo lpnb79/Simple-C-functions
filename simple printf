@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int apples = 12;
+    int bananas = 8;
+    int students = apples + bananas;
+
+    printf("Total number of students: %d\n", students);
+    printf("\tNumber of apples: %d\n", apples);
+    printf("\tNumber of boys: %d\n", bananas);
+
+    return 0;
+}
